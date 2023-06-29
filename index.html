@@ -30,7 +30,7 @@
                 <a class="dropdown-item" href="#">Wine boxes</a>
             </div>
         </li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/member">Log in / haven't signed up yet?</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/member" >Log in / haven't signed up yet?</a></li>
         </ul>
 
         <div class="d-none d-md-block">
@@ -56,6 +56,8 @@
                 <h2><i class="fas fa-info-circle"></i> About us:</h2>
                 <p>You can find in our website our top-selling products. We specialize in manufacturing gift box products. Our diverse range includes chocolate boxes, jewelry boxes, cosmetic boxes, and wine boxes.  </p>
                 <p>Take a look at our products. Our customers would tell you the same ;)</p>
+                <p>What are you waiting for? </p>
+                <p><button class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#signUpModal">Sign Up now!</button></p>
                 </div>
             </div>
         </section>
@@ -98,8 +100,36 @@
                 </div>
             </div>
         </section>
-
     </article>
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up To Gift box!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="registration">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your personal email">
+                        </div>
+                        <div class="registration">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="registration">
+                            <label for="ConfirmPassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm your Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script> 
