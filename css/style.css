@@ -1,0 +1,30 @@
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.introduction-container{
+    height: 100vh;
+
+    background: url('../images/gift1.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.products-container{}
+.marketing-container{}
+
+.jumbotron{
+    background-color: transparent;
+    color:rgba(255, 233, 233, 0.904);
+
+}
+.jumbotron h1 {
+    margin-bottom: 40px;
+
+}
