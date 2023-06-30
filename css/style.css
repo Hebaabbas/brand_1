@@ -1,5 +1,6 @@
 body{
     font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: black;
 }
 .navalert-container {
     position: absolute;
@@ -40,8 +41,32 @@ body{
 
     position: relative;
 }
-.products-container{}
-.marketing-container{}
+.products-container{
+    background-color: black;
+}
+h2 < .products-container{
+    color:red;
+}
+.marketing-container{
+
+    background: url('../images/gift1.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    color: rgba(255, 233, 233, 0.904);
+
+}
+.marketing{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .jumbotron{
     background-color: transparent;
@@ -52,3 +77,44 @@ body{
     margin-bottom: 40px;
 
 }
+footer{
+    color:rgba(255, 233, 233, 0.904);
+    text-align: center;
+}
+.registration label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .registration input[type="text"],
+  .registration input[type="email"],
+  .registration input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .registration input[type="text"]:focus,
+  .registration input[type="email"]:focus,
+  .registration input[type="password"]:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px #66afe9;
+  }
+  
+  .registration button[type="submit"] {
+    background-color: #672222;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
